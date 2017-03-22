@@ -1,6 +1,6 @@
 {
   "name": "iris",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "server/service.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kefkarjp1/iris.git"
+    "uri": "https://github.com/Kefkarjp1/iris.git"
   },
   "author": "",
   "license": "ISC",
