@@ -4,7 +4,7 @@
   "description": "a pretty sweet program",
   "main": "server/service.js",
   "scripts": {
-    "test": "NODE_ENV=test eslint bin server && nyc mocha --recursive test",
+    "test": "NODE_ENV=test snyk test && eslint bin server && nyc mocha --recursive test",
     "start": "node bin/run"
   },
   "engines": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "uri": "https://github.com/Kefkarjp1/iris.git"
+    "url": "https://github.com/Kefkarjp1/iris.git"
   },
   "author": "",
   "license": "ISC",
