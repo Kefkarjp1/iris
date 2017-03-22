@@ -25,4 +25,3 @@ module.exports.process = function process(intentData, registry, log, cb) {
             return cb(false, `In ${location}, it is now ${res.body.result}`);
         });
 };
-};
