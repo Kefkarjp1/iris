@@ -1,7 +1,7 @@
 {
   "name": "iris",
   "version": "1.0.0",
-  "description": "",
+  "description": "a pretty sweet program",
   "main": "server/service.js",
   "scripts": {
     "test": "NODE_ENV=test snyk test && eslint bin server && nyc mocha --recursive test",
@@ -10,6 +10,13 @@
   "engines": {
     "node": "6.9.5"
   },
+<<<<<<< HEAD
+=======
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/Kefkarjp1/iris.git"
+  },
+>>>>>>> 4822bdd7e30178791fafc3b951b9d9cafb5fef1f
   "author": "",
   "license": "ISC",
   "dependencies": {
