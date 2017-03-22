@@ -11,9 +11,9 @@ module.exports = {
     deploy: {
         production: {
             user: 'node',
-            host: '35.160.143.122',
+            host: '<YOUR SERVER IP>',
             ref: 'origin/master',
-            repo: 'https://github.com/lynda-danielkhan/iris.git',
+            repo: 'https://github.com/<YOUR_REPO_URL>',
             path: '/srv/production',
             'post-deploy': 'cp ../.env ./ && npm install && pm2 startOrRestart ecosystem.config.js --env production'
         }
