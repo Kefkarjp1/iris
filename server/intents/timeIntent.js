@@ -24,4 +24,8 @@ module.exports.process = function process(intentData, registry, log, cb) {
 
             return cb(false, `In ${location}, it is now ${res.body.result}`);
         });
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> ddca95fd31241c653db9d1a555a9d09fcd66c852
