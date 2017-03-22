@@ -4,8 +4,11 @@
   "description": "",
   "main": "server/service.js",
   "scripts": {
-    "test": "NODE_ENV=test eslint bin server && nyc mocha --recursive test",
+    "test": "NODE_ENV=test snyk test && eslint bin server && nyc mocha --recursive test",
     "start": "node bin/run"
+  },
+  "engines": {
+    "node": "6.9.5"
   },
   "author": "",
   "license": "ISC",
